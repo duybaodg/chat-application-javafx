@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Database",
+            "request": "launch",
+            "mainClass": "com.example.Database",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "com.example.Client",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "com.example.Server",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.example.App",
+            "vmArgs": "--module-path /Users/caubanh/eclipse/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
